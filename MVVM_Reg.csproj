@@ -83,6 +83,9 @@
     <Compile Include="DataAccessLayer\DataStorage.cs" />
     <Compile Include="Model\UserReg.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="View\LoadUserView.xaml.cs">
+      <DependentUpon>LoadUserView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\RegView.xaml.cs">
       <DependentUpon>RegView.xaml</DependentUpon>
     </Compile>
@@ -98,6 +101,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\LoadUserView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\RegView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

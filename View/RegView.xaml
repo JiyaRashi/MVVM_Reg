@@ -42,10 +42,11 @@
             <TextBox x:Name="txbMobileNumer" Grid.Column="1" Grid.Row="5"/>
             <ComboBox x:Name="cbCountry" Grid.Column="1" Grid.Row="6"/>
             <TextBox x:Name="txbPinCode" Grid.Column="1" Grid.Row="7"/>
-            <StackPanel Margin="10" Grid.Row="8" Grid.ColumnSpan="2">
-                <Button Content="Update" />
-                <Button Content="Open" />
-            </StackPanel>
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10" Grid.Row="8" Grid.ColumnSpan="2">
+                <Button Margin="5" FontSize="13" Content="Add" />
+                <Button Margin="5" FontSize="13" Content="Update" />
+                <Button Margin="5" FontSize="13" Content="Open" />
+            </WrapPanel>
         </Grid>
             
     </Grid>
